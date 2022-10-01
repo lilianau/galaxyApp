@@ -1,14 +1,7 @@
 GalaxyFisa
-Autor: Bryan Beltrán
-1. Pasos para ejecutar aplicación:
-Ingresar desde la terminal al directorio: GalaxyFisa1.0/GalaxyMain
-Ejecutar comando mvn clean install
-Ejecutar clase Main ubicada en el directorio: GalaxyFisa1.0/GalaxyMain/src/main/java/com/fisa/Main.java
-2. Carga de Datos
-El sistema carga el archivo input.txt ubicado en el directorio: GalaxyFisa1.0/GalaxyMain/src/main/resources/input.txt
 
-3. Descripción del Problema
-3.1 Guía del comerciante para la galaxia
+1. Descripción del Problema
+1.1 Guía del comerciante para la galaxia
 Decidiste migrar de la tierra después de que el último colapso financiero dejara al 99,99% de la población de la tierra con el 0,01% de la riqueza. Afortunadamente, con la escasa suma de dinero que queda en su cuenta, puede permitirse el lujo de alquilar una nave espacial, abandonar la Tierra y volar por toda la galaxia para vender metales y tierra comunes (lo que aparentemente vale mucho).
 
 Comprar y vender en la galaxia requiere que conviertas números y unidades, y decidiste escribir un programa para ayudarte.
