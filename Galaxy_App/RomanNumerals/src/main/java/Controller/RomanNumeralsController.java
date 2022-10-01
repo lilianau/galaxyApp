@@ -44,7 +44,7 @@ public class RomanNumeralsController {
     }
 
     public boolean romanNumeralSemanticValidator(String sentence){
-        ArrayList listRomanNumerals = new ArrayList();
+        ArrayList<Character> listRomanNumerals = new ArrayList<Character>();
         listRomanNumberValues.clear();
         if(validateMaximumNumberOfRepetitions(sentence)) {
             sentence.chars().forEach((c -> listRomanNumerals.add((char) c)));
@@ -140,7 +140,7 @@ public class RomanNumeralsController {
     }
 
     public boolean ruleRepetition3LowerValue(String sentence){
-        ArrayList listRomanNumerals = new ArrayList();
+        ArrayList<Character> listRomanNumerals = new ArrayList<Character>();
         sentence.chars().forEach((c -> listRomanNumerals.add((char) c)));
         for(int i = 0; i < listRomanNumerals.size(); i++) {
             if ((i + 4) < listRomanNumerals.size()) {
@@ -157,7 +157,7 @@ public class RomanNumeralsController {
     }
 
     public boolean ruleRepetition4LowerValue(String sentence){
-        ArrayList listRomanNumerals = new ArrayList();
+        ArrayList<Character> listRomanNumerals = new ArrayList<>();
         sentence.chars().forEach((c -> listRomanNumerals.add((char) c)));
         for(int i = 0; i < listRomanNumerals.size(); i++){
             if((i+4)< listRomanNumerals.size()) {

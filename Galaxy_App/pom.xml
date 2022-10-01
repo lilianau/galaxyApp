@@ -12,6 +12,7 @@
         <module>Lector</module>
         <module>RomanNumerals</module>
         <module>Traslator</module>
+        <module>GalaxyMain</module>
     </modules>
 
     <dependencies>
